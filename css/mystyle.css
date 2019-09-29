@@ -1,0 +1,57 @@
+
+body{
+display: flex;
+justify-content: center;
+background-color: antiquewhite
+}
+
+
+.wrapper_d{
+display: flex;
+flex-direction: column;
+}
+
+
+.roof_d{
+border-bottom:200px solid black;border-left:300px solid transparent;border-right:300px solid transparent}
+
+
+.house__wall_f{
+display: flex;
+justify-content: space-around; 
+border:2px solid black ;background:brown;width:600px;height:500px}
+
+
+.wall__window_right_f{
+display: flex;
+justify-content: center;
+order: 3;
+margin-top:15%;
+background:blue;border:2px solid black;width:100px;height:100px}
+
+
+.wall__window_left_f{
+display: flex;
+justify-content: center;
+order: 1;
+margin-top:15%;
+background:blue;border:2px solid black;width:100px;height:100px}
+
+
+.wall__door_f{
+display: flex; 
+align-self: flex-end;
+order: 2;
+border:1px solid black;background:#212121;width:150px;height:50%;}
+
+
+.window__frame_vertical_f{
+background:#212121;width:2px;height:100%}
+
+
+
+
+
+
+
+
